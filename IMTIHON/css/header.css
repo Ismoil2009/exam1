@@ -1,0 +1,174 @@
+nav {
+    height: 100px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left h3 {
+    color: #252B42;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+.nav-right a {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.7s;
+    margin: 0 120px 0 -60px;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+.nav-right a:hover {
+    color: #000000;
+}
+
+.business {
+    width: 100%;
+    background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+}
+
+.business h1 {
+    width: 490px;
+    font-weight: 900;
+    font-size: 58px;
+    color: #252B42;
+    margin-left: 250px;
+    padding-top: 205px;
+}
+
+.business h4 {
+    width: 400px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #737373;
+    margin-left: 250px;
+    padding-top: 35px;
+}
+
+.business button {
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    -ms-border-radius: 37px;
+    -o-border-radius: 37px;
+    margin-top: 35px;
+    padding: 15px 35px;
+    color: #00A0C1;
+    border: 1px solid #00A0C1;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.business button:hover {
+    background-color: #FFA62B;
+    color: #FFFFFF;
+    border: 1px solid #FFA62B;
+}
+
+.a {
+    margin-left: 250px;
+}
+
+.b {
+    margin-left: 15px;
+}
+
+.vacation {
+    background-color: #fafafa;
+}
+
+.vac-cards {
+    display: flex;
+    width: 1519px;
+    margin-top: -110px;
+    justify-content: space-between;
+}
+
+.vac-card img {
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+.vac-card {
+    padding: 30px 40px 45px 30px;
+    background-color: #ffffff;
+    width: 330px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+    cursor: pointer;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+.vac-card1 {
+    margin-left: 200px;
+}
+
+.vac-card3 {
+    margin-right: 200px;
+}
+
+.vac-card h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.vac-card p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #737373;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+.vac-card:hover p {
+    color: #ffffff;
+}
+
+.vac-card:hover {
+    background-color: #00A0C1;
+    color: #ffffff;
+}
+
+.vac-card:hover img {
+    color: #ffffff;
+}
+
+.vac-card:hover path {
+    fill: #ffffff;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+

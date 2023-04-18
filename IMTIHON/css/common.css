@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #fafafa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#backtop {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: -50px;
+    right: 30px;
+    background-color: grey;
+    border: none;
+    font-size: 25px;
+    scroll-behavior: smooth;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+#backtop a {
+    color: black;
+}
+
